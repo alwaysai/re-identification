@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "python app.py"
+  },
+  "models": {
+    "alwaysai/ssd_mobilenet_v1_coco_2018_01_28": 9,
+    "sheshalwaysai/re_id_test_model": 1
+  }
+}
