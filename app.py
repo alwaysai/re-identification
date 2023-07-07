@@ -18,9 +18,9 @@ def object_exits_1(object_id, prediction):
 
 def main():
 
-    re_identifier = edgeiq.ReIdentification("sheshalwaysai/re_id_test_model")
+    re_identifier = edgeiq.ReIdentification("alwaysai/re_id")
     re_identifier.load(engine=edgeiq.Engine.DNN)
-    re_identifier.set_per_id_gallery_limit(count=100,drop_method="drop_random")
+    re_identifier.set_per_id_gallery_limit(count=100, drop_method="drop_random")
     print("Engine: {}".format(re_identifier.engine))
     print("Accelerator: {}\n".format(re_identifier.accelerator))
     print("Model:\n{}\n".format(re_identifier.model_id))
@@ -90,7 +90,7 @@ def main():
             frame1 = edgeiq.markup_image(frame1, predictions1)
             stacked_out = np.vstack([frame0, frame1])
             streamer.send_data(stacked_out, [])
-            
+
             fps.update()
 
             if streamer.check_exit():
