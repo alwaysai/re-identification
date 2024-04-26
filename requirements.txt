@@ -4,4 +4,4 @@
 # pygame
 Pillow>=10.3.0
 torch>=1.13.1
-torchvision
+torchvision>=0.9.1
