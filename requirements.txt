@@ -1,7 +1,6 @@
 # Python dependencies for your application can be declared here and they will be installed in the runtime container.
-# Example packages listed below. Uncomment to use or add your own!
-# RPi.GPIO
-# pygame
-Pillow>=10.3.0
-torch>=1.13.1
-torchvision>=0.9.1
+Pillow==9.3.0
+torch==1.8.1;python_version<="3.8"
+torchvision==0.9.1;python_version<="3.8"
+torch
+torchvision
