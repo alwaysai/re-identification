@@ -1,5 +1,5 @@
 # Person ReIdentification
-Use [Re-Identification](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#re-identification) to re-identify person from one stream into another stream. 
+Use [Re-Identification](https://docs.alwaysai.co/edgeiq_api/re_identification.html) to re-identify person from one stream into another stream. 
 
 ## Requirements
 * [alwaysAI account](https://alwaysai.co/auth?register=true)
